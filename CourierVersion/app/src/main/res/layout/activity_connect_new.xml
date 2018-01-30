@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.courierversion.view.TopBar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="@string/connection"
+        app:isRightShow="false" />
+
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:text="@string/unconnected"
+        android:textSize="26sp"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@+id/topBar"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/pop_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_reason"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+
+        android:layout_below="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_retry"
+        android:text="@string/retry"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_warm_selector"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/tv_tips"
+        android:textSize="21sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:text="@string/tips"
+        android:textColor="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
