@@ -1,12 +1,12 @@
 ﻿<resources>
-    <string name="app_name">Courier version</string>
+    <string name="app_name">SmartaBoxC</string>
     <string name="input_name">Please enter your name</string>
     <string name="input_company">Please enter the name of your company</string>
     <string name="input_email">Please enter your receiving email account</string>
     <string name="to_register">Go to Register</string>
     <string name="to_scan">Scan QR Code</string>
     <string name="OK">OK</string>
-    <string name="please_write">Please enter the number ...</string>
+    <string name="please_write">Please Enter the QR Code</string>
     <string name="please_ensure">Please confirm that you have entered the correct number</string>
 
     <!--申请权限相关-->
@@ -167,13 +167,13 @@
     <string name="sbc_name">Google Book Search</string>
     <string name="wifi_changing_network">Requesting connection to network\u2026</string>
 
-    <string name="viewfinderview_status_text1">Put QR code into the viewfinder frame</string>
+    <string name="viewfinderview_status_text1">Scan QR Code on outside of door</string>
     <string name="viewfinderview_status_text2">It automatically scans</string>
     <string name="open_flashlight">Flash on</string>
     <string name="off_flashlight">Flash off</string>
-    <string name="write_number">Enter the number</string>
+    <string name="write_number">Enter QR Code</string>
     <string name="tv_now_status">Current State:</string>
-    <string name="courier_terminal">Courier Terminal</string>
+    <string name="courier_terminal">Courier Details</string>
     <string name="scan_one_scan">Scan</string>
     <string name="enter_number">Enter Number</string>
     <string name="please_enter_number">Please enter the number...</string>
@@ -192,11 +192,11 @@
     <string name="receive_data">Receive:</string>
     <string name="tips">tips: if the connection fails, you can click Retry</string>
     <string name="connection">Connection</string>
-    <string name="info_change">Information Modification</string>
+    <string name="info_change">Your Details</string>
     <string name="name">Name:</string>
     <string name="company">Company:</string>
     <string name="email">Email:</string>
-    <string name="modify">Modify</string>
+    <string name="modify">Commit Changes</string>
     <string name="change_info_success">Modify data successfully</string>
     <string name="enter_right_email">Please enter the correct email</string>
     <string name="submit_info_success">Successfully complete information</string>
