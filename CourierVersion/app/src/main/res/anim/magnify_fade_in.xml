@@ -11,6 +11,6 @@
         android:fromXScale=".5" android:toXScale="1.0"
         android:fromYScale=".5" android:toYScale="1.0"
         android:pivotX="50%p" android:pivotY="50%p"   
-        android:duration="1000" />
+        android:duration="1300" />
     
 </set> 

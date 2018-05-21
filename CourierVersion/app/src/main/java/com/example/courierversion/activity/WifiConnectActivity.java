@@ -151,7 +151,7 @@ public class WifiConnectActivity extends AppCompatActivity implements SocketUtil
             @Override
             public void onClick(View v) {
                 //如果没有连接上目标wifi,请尝试重连
-               /* if (!TextUtils.equals("\"brize_box\"",wifiUtil.getSSID())){
+               /* if (!TextUtils.equals("\"SmartaBox\"",wifiUtil.getSSID())){
                     wifiUtil.removeNowConnectingID();
                     handler.sendMessage(handler.obtainMessage(MSG_CONNECT));
                 }else {
@@ -161,7 +161,7 @@ public class WifiConnectActivity extends AppCompatActivity implements SocketUtil
                 //socket连接
                 if ((connec.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED)
                         &&
-                        TextUtils.equals("\"brize_box\"", wifiUtil.getSSID())
+                        TextUtils.equals("\"SmartaBox\"", wifiUtil.getSSID())
                         ){
                     Log.d(TAG, "onClick: socket connect...");
                     p.setMessage(getString(R.string.connect_package));
@@ -213,10 +213,10 @@ public class WifiConnectActivity extends AppCompatActivity implements SocketUtil
     @Override
     protected void onResume() {
         super.onResume();
-        //如果已经连接WIFI，但是WIFI不是brize_box，断开连接重连
+        //如果已经连接WIFI，但是WIFI不是SmartaBox，断开连接重连
         if(connec.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED
                 &&
-                !TextUtils.equals("\"brize_box\"", wifiUtil.getSSID())
+                !TextUtils.equals("\"SmartaBox\"", wifiUtil.getSSID())
                 ){
             //断开连接再重连
             Log.d(TAG, "onClick: wifi  reConnecting...");
@@ -366,7 +366,7 @@ public class WifiConnectActivity extends AppCompatActivity implements SocketUtil
                         case CONNECTED:
                             Log.i(TAG, "onReceive: " + wifiUtil.getSSID());
                             Log.i(TAG, "onReceive: 已连接");
-                            if (TextUtils.equals("\"brize_box\"",wifiUtil.getSSID())){
+                            if (TextUtils.equals("\"SmartaBox\"",wifiUtil.getSSID())){
 
                                 btn_retry.setEnabled(false);
                                 btn_retry.setAlpha(0.4f);
