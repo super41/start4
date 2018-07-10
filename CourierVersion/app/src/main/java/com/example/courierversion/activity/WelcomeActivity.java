@@ -31,7 +31,7 @@ public class WelcomeActivity extends Activity {
                 overridePendingTransition(R.anim.magnify_fade_in, R.anim.magnify_fade_out);
                 finish();
             }
-        }, 2600);
+        }, 1500);
     }
 
 }

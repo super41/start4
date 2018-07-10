@@ -5,7 +5,7 @@
     
     <alpha
         android:fromAlpha="0" android:toAlpha="1.0"   
-        android:duration="1000"/>
+        android:duration="1300"/>
     
     <scale
         android:fromXScale=".5" android:toXScale="1.0"
