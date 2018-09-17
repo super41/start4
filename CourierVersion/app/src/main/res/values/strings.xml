@@ -215,4 +215,7 @@
     <string name="unconnected">Unconnected</string>
     <string name="please_colse_packae">Please close the parcel box in front of the parcel box to find you</string>
     <string name="reason">May not be in range or connection timed out</string>
+
+    <string name="connect_wifi">Connect WiFi</string>
+    <string name="connect_socket">Connect SmartaBox</string>
 </resources>
