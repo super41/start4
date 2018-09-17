@@ -51,7 +51,7 @@
     <string name="socket_connection">Socket连接:</string>
     <string name="send_data">发送数据:</string>
     <string name="receive_data">接收数据:</string>
-    <string name="tips">提示: 如果连接失败，你可以点击重试</string>
+    <string name="tips">WiFi: SmartaBox</string>
     <string name="connection">连接</string>
     <string name="info_change">修改信息</string>
     <string name="name">姓名:</string>

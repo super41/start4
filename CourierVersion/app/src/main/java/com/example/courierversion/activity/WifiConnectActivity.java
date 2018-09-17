@@ -307,7 +307,7 @@ public class WifiConnectActivity extends AppCompatActivity implements SocketUtil
 
             switch (intent.getAction()) {
                 case PublicDefine.WIFI_CONNECTTING_ACTION:
-                    setConnecting();
+//                    setConnecting();
                     Log.d(TAG, "onReceive: wifi_connecting_action");
                     break;
                 case WIFI_STATE_CHANGE_ACTION:

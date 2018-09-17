@@ -190,7 +190,7 @@
     <string name="socket_connection">Socket Connection:</string>
     <string name="send_data">Send:</string>
     <string name="receive_data">Receive:</string>
-    <string name="tips">tips: if the connection fails, you can click Retry</string>
+    <string name="tips">WiFi: SmartaBox</string>
     <string name="connection">Connection</string>
     <string name="info_change">Your Details</string>
     <string name="name">Name:</string>
